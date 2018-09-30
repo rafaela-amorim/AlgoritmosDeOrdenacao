@@ -29,7 +29,8 @@ public class QuickSort<T extends Comparable<T>> {
 	
 	
 	public static void main(String[] args) {
-		Integer[] array = new Integer[] {10,21,24,12,46,99,52,76,133,457,650,25,432,40,271,101,420};
+		//Integer[] array = new Integer[] {10,21,24,12,46,99,52,76,133,457,650,25,432,40,271,101,420};
+		Integer[] array = new Integer[] {10,21,-24,12,-46,-99,52,76,133,-457,650,25,432,40,271,101,420};
 		QuickSort<Integer> qs = new QuickSort<>();
 		qs.quickSort(array, 0, array.length - 1);
 		System.out.println(Arrays.toString(array));
