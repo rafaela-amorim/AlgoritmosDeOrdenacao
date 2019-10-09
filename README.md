@@ -1,8 +1,3 @@
-# EstruturasDeDados #
+<h1> Data Structures </h1>
 
-Algorithms implemented at data structures discipline
-
-=======
-
-# AlgoritmosDeOrdenacao #
-Alguns algoritmos de ordenação, tais quais: merge sort, quick sort, bucket sort etc
+Sorting algorithms implemented at data structures discipline
